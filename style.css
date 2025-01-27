@@ -1,0 +1,87 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.logo-name
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.search input 
+{
+    width: 100%;
+}
+.sun i 
+{
+    padding: 7px 10px;
+    background-color: rgb(255, 238, 222);
+    border-radius: 50%;
+    color: orangered;
+    transition: all 0.5s ease-in-out;
+}
+.sun i:hover 
+{
+    background-color:orangered ;
+    color: white;
+}
+.left
+{
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: left;
+    position:fixed;
+
+    
+}
+.right
+{
+    float: right;
+    position: relative;
+
+
+}
+.navigation
+{
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+.main
+{
+    padding-top: 40px;
+}
+.star i
+{
+    padding: 8px 10px;
+    background-color: rgb(180, 253, 180);
+    border-radius: 50%;
+    color: green;
+}
+.star1 i
+{
+    padding: 8px 10px;
+    background-color: rgb(255, 231, 186);
+    border-radius: 50%;
+    color: orange;
+}
+.star2 i
+{
+    padding: 8px 10px;
+    background-color:rgb(255, 198, 198);
+    border-radius: 50%;
+    color: red;
+}
+.img img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;    
+}
+.main
+{
+background-color:rgb(228, 220, 220);
+
+}
